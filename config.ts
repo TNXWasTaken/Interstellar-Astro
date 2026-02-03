@@ -1,7 +1,9 @@
 import type { Config } from "@/types/config";
 
 function buildAuthUsers(): Record<string, string> {
-  const users: Record<string, string> = {};
+  const users: Record<string, string> = {
+    "interstellar": "password"
+  };
 
   const authUser = process.env.AUTH_USER;
   const authPass = process.env.AUTH_PASS;

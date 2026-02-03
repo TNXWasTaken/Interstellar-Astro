@@ -1,0 +1,1 @@
+AUTH_CHALLENGE="true" bun start

@@ -59,7 +59,7 @@ async function Start() {
       encodings: ["br", "gzip", "deflate"],
     });
   }
-
+  
   if (INConfig.auth?.challenge) {
     await app.register(import("@fastify/basic-auth"), {
       authenticate: true,
