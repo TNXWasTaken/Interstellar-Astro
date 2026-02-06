@@ -108,7 +108,7 @@ export default function Browser() {
 
     const updateState = () => {
       const actualUrl = getActualUrl(iframe);
-      if (actualUrl && actualUrl !== "about:blank" && actualUrl !== url) setUrl(actualUrl);
+      //if (actualUrl && actualUrl !== "about:blank" && actualUrl !== url) setUrl(actualUrl);
 
       try {
         const iframeTitle = iframe.contentWindow?.document?.title;
